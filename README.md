@@ -69,5 +69,8 @@ VITE_RECIPIENT=0x...
 - Tweet code card 1: [`assets/tweet-3-sdk-wallet.svg`](./assets/tweet-3-sdk-wallet.svg)
 - Tweet code card 2: [`assets/tweet-5-gasless-swap.svg`](./assets/tweet-5-gasless-swap.svg)
 - Tweet code card 3: [`assets/tweet-7-batch-tx.svg`](./assets/tweet-7-batch-tx.svg)
+- Thread cover slide: [`assets/08-bridge-cover.svg`](./assets/08-bridge-cover.svg)
+- Thread batching slide: [`assets/09-bridge-batching.svg`](./assets/09-bridge-batching.svg)
+- Thread review slide: [`assets/10-bridge-review.svg`](./assets/10-bridge-review.svg)
 
 The SVGs are repo-ready dark-theme assets. If you want native X attachments, export them to PNG after you run the app locally and capture a real browser shot or GIF.

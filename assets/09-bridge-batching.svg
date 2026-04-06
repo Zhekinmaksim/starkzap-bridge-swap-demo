@@ -1,0 +1,100 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#0B0D19"/>
+  <rect width="1200" height="4" fill="url(#paint0_linear_09)"/>
+
+  <g opacity="0.75">
+    <path d="M0 0H1200" stroke="#1B2235"/>
+    <path d="M0 40H1200" stroke="#1B2235"/>
+    <path d="M0 80H1200" stroke="#1B2235"/>
+    <path d="M0 120H1200" stroke="#1B2235"/>
+    <path d="M0 160H1200" stroke="#1B2235"/>
+    <path d="M0 200H1200" stroke="#1B2235"/>
+    <path d="M0 240H1200" stroke="#1B2235"/>
+    <path d="M0 280H1200" stroke="#1B2235"/>
+    <path d="M0 320H1200" stroke="#1B2235"/>
+    <path d="M0 360H1200" stroke="#1B2235"/>
+    <path d="M0 400H1200" stroke="#1B2235"/>
+    <path d="M0 440H1200" stroke="#1B2235"/>
+    <path d="M0 480H1200" stroke="#1B2235"/>
+    <path d="M0 520H1200" stroke="#1B2235"/>
+    <path d="M0 560H1200" stroke="#1B2235"/>
+    <path d="M0 600H1200" stroke="#1B2235"/>
+    <path d="M0 640H1200" stroke="#1B2235"/>
+    <path d="M0 0V675" stroke="#1B2235"/>
+    <path d="M40 0V675" stroke="#1B2235"/>
+    <path d="M80 0V675" stroke="#1B2235"/>
+    <path d="M120 0V675" stroke="#1B2235"/>
+    <path d="M160 0V675" stroke="#1B2235"/>
+    <path d="M200 0V675" stroke="#1B2235"/>
+    <path d="M240 0V675" stroke="#1B2235"/>
+    <path d="M280 0V675" stroke="#1B2235"/>
+    <path d="M320 0V675" stroke="#1B2235"/>
+    <path d="M360 0V675" stroke="#1B2235"/>
+    <path d="M400 0V675" stroke="#1B2235"/>
+    <path d="M440 0V675" stroke="#1B2235"/>
+    <path d="M480 0V675" stroke="#1B2235"/>
+    <path d="M520 0V675" stroke="#1B2235"/>
+    <path d="M560 0V675" stroke="#1B2235"/>
+    <path d="M600 0V675" stroke="#1B2235"/>
+    <path d="M640 0V675" stroke="#1B2235"/>
+    <path d="M680 0V675" stroke="#1B2235"/>
+    <path d="M720 0V675" stroke="#1B2235"/>
+    <path d="M760 0V675" stroke="#1B2235"/>
+    <path d="M800 0V675" stroke="#1B2235"/>
+    <path d="M840 0V675" stroke="#1B2235"/>
+    <path d="M880 0V675" stroke="#1B2235"/>
+    <path d="M920 0V675" stroke="#1B2235"/>
+    <path d="M960 0V675" stroke="#1B2235"/>
+    <path d="M1000 0V675" stroke="#1B2235"/>
+    <path d="M1040 0V675" stroke="#1B2235"/>
+    <path d="M1080 0V675" stroke="#1B2235"/>
+    <path d="M1120 0V675" stroke="#1B2235"/>
+    <path d="M1160 0V675" stroke="#1B2235"/>
+  </g>
+
+  <g opacity="0.18">
+    <path d="M1120 520L1200 600" stroke="#FF7B66"/>
+    <path d="M1044 644L1168 520L1292 644L1168 768L1044 644Z" stroke="#5B2331"/>
+  </g>
+
+  <g>
+    <path d="M44 34L54 24L64 34L54 44L44 34Z" stroke="#FF7B66" stroke-width="2.4"/>
+    <text x="78" y="39" fill="#FF7B66" font-family="JetBrains Mono, monospace" font-size="15" font-weight="700" letter-spacing="1.8">STARKNET</text>
+  </g>
+
+  <rect x="80" y="66" width="1040" height="22" rx="5" fill="#0B3E31"/>
+  <text x="92" y="81" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="1.8">TX BATCHING</text>
+
+  <text x="80" y="138" fill="#FFF6EE" font-family="Space Grotesk, sans-serif" font-size="56" font-weight="700">Swap + transfer =</text>
+  <text x="80" y="177" fill="#73E3C1" font-family="Space Grotesk, sans-serif" font-size="56" font-weight="700">1 Starknet tx</text>
+
+  <rect x="80" y="222" width="1040" height="310" rx="12" fill="#0A0B17" stroke="#262B45"/>
+  <text x="108" y="287" fill="#96A8FF" font-family="JetBrains Mono, monospace" font-size="16">const tx = await wallet</text>
+  <text x="108" y="311" fill="#96A8FF" font-family="JetBrains Mono, monospace" font-size="16">  .tx()</text>
+  <text x="108" y="335" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="16">  .swap({</text>
+  <text x="132" y="359" fill="#F0E2D8" font-family="JetBrains Mono, monospace" font-size="16">provider: "avnu",</text>
+  <text x="132" y="383" fill="#F0E2D8" font-family="JetBrains Mono, monospace" font-size="16">tokenIn: tokens.ETH,</text>
+  <text x="132" y="407" fill="#F0E2D8" font-family="JetBrains Mono, monospace" font-size="16">tokenOut: tokens.USDC,</text>
+  <text x="132" y="431" fill="#F0E2D8" font-family="JetBrains Mono, monospace" font-size="16">amountIn: Amount.parse("0.01", tokens.ETH),</text>
+  <text x="132" y="455" fill="#F0E2D8" font-family="JetBrains Mono, monospace" font-size="16">slippageBps: 100n,</text>
+  <text x="108" y="479" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="16">  })</text>
+  <text x="108" y="503" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="16">  .transfer(tokens.USDC, {</text>
+  <text x="132" y="527" fill="#F0E2D8" font-family="JetBrains Mono, monospace" font-size="16">to: recipient, amount: Amount.parse("2", tokens.USDC),</text>
+  <text x="108" y="551" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="16">  })</text>
+  <text x="108" y="575" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="16">  .send({ feeMode: "sponsored" });</text>
+
+  <rect x="80" y="553" width="1040" height="56" fill="#131322"/>
+  <rect x="80" y="553" width="3" height="56" fill="#73E3C1"/>
+  <text x="102" y="587" fill="#E7D8CC" font-family="JetBrains Mono, monospace" font-size="17">One builder. One signature. One Starknet transaction hash.</text>
+
+  <text x="80" y="647" fill="#3E4355" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="1.4">POWERED BY STARKNET</text>
+  <text x="1083" y="647" fill="#3E4355" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="1.4">T7 / 9</text>
+
+  <defs>
+    <linearGradient id="paint0_linear_09" x1="0" y1="2" x2="1200" y2="2" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B06CCF"/>
+      <stop offset="0.48" stop-color="#FF8A66"/>
+      <stop offset="1" stop-color="#FFD36A"/>
+    </linearGradient>
+  </defs>
+</svg>
