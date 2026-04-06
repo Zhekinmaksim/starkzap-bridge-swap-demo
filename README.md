@@ -4,8 +4,6 @@ Minimal React + Vite demo that connects a Starknet signer wallet, bridges ETH fr
 
 GitHub repo: [Zhekinmaksim/starkzap-bridge-swap-demo](https://github.com/Zhekinmaksim/starkzap-bridge-swap-demo)
 
-![Demo preview](./assets/app-preview.svg)
-
 ## What this demo shows
 
 - Starknet wallet setup with `StarkZap`, `StarkSigner`, `connectWallet()`, and `ensureReady()`
@@ -65,7 +63,6 @@ VITE_RECIPIENT=0x...
 
 ## Assets
 
-- App preview: [`assets/app-preview.svg`](./assets/app-preview.svg)
 - Tweet code card 1: [`assets/tweet-3-sdk-wallet.svg`](./assets/tweet-3-sdk-wallet.svg)
 - Tweet code card 2: [`assets/tweet-5-gasless-swap.svg`](./assets/tweet-5-gasless-swap.svg)
 - Tweet code card 3: [`assets/tweet-7-batch-tx.svg`](./assets/tweet-7-batch-tx.svg)
