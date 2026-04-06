@@ -1,0 +1,15 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#071119"/>
+  <rect x="52" y="52" width="1496" height="796" rx="28" fill="#0D1822" stroke="#223646"/>
+  <text x="88" y="118" fill="#7FD8B4" font-family="Space Grotesk, sans-serif" font-size="28" letter-spacing="3">TWEET 3 · SDK INIT + WALLET</text>
+  <rect x="88" y="160" width="1424" height="624" rx="24" fill="#101B26" stroke="#1F3140"/>
+  <text x="124" y="226" fill="#9BC2FF" font-family="JetBrains Mono, monospace" font-size="30">import { StarkZap, StarkSigner, AvnuSwapProvider } from "starkzap";</text>
+  <text x="124" y="294" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">const sdk = new StarkZap({ network: "sepolia" });</text>
+  <text x="124" y="396" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">const wallet = await sdk.connectWallet({</text>
+  <text x="164" y="448" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">account: { signer: new StarkSigner(privateKey) },</text>
+  <text x="164" y="500" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">swapProviders: [new AvnuSwapProvider()],</text>
+  <text x="164" y="552" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">defaultSwapProviderId: "avnu",</text>
+  <text x="124" y="604" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">});</text>
+  <text x="124" y="700" fill="#7FD8B4" font-family="JetBrains Mono, monospace" font-size="30">await wallet.ensureReady({ deploy: "if_needed" });</text>
+  <text x="88" y="828" fill="#ABC0D4" font-family="Space Grotesk, sans-serif" font-size="24">Dark-theme code card for the thread attachment.</text>
+</svg>

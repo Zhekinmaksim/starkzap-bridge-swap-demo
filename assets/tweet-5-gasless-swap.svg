@@ -1,0 +1,16 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#071119"/>
+  <rect x="52" y="52" width="1496" height="796" rx="28" fill="#0D1822" stroke="#223646"/>
+  <text x="88" y="118" fill="#7FD8B4" font-family="Space Grotesk, sans-serif" font-size="28" letter-spacing="3">TWEET 5 · GASLESS SWAP</text>
+  <rect x="88" y="160" width="1424" height="624" rx="24" fill="#101B26" stroke="#1F3140"/>
+  <text x="124" y="226" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">const tokens = getPresets(wallet.getChainId());</text>
+  <text x="124" y="328" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">const quote = await wallet.getQuote({</text>
+  <text x="164" y="380" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">provider: "avnu",</text>
+  <text x="164" y="432" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">tokenIn: tokens.ETH,</text>
+  <text x="164" y="484" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">tokenOut: tokens.USDC,</text>
+  <text x="164" y="536" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">amountIn: Amount.parse("0.005", tokens.ETH),</text>
+  <text x="164" y="588" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">slippageBps: 100n,</text>
+  <text x="124" y="640" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">});</text>
+  <text x="124" y="736" fill="#7FD8B4" font-family="JetBrains Mono, monospace" font-size="30">await wallet.swap({ ...quoteRequest }, { feeMode: "sponsored" });</text>
+  <text x="88" y="828" fill="#ABC0D4" font-family="Space Grotesk, sans-serif" font-size="24">Use a real paymaster path if you want the gasless claim to hold up.</text>
+</svg>
