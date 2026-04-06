@@ -2,6 +2,8 @@
 
 Minimal React + Vite demo that connects a Starknet signer wallet, bridges ETH from Ethereum into Starknet, swaps ETH to USDC through AVNU, renders balances, and shows a batch `swap + transfer` flow.
 
+GitHub repo: [Zhekinmaksim/starkzap-bridge-swap-demo](https://github.com/Zhekinmaksim/starkzap-bridge-swap-demo)
+
 ![Demo preview](./assets/app-preview.svg)
 
 ## What this demo shows
@@ -57,6 +59,7 @@ VITE_RECIPIENT=0x...
 ## Thread
 
 - Draft thread for this repo: [THREAD.md](./THREAD.md)
+- Public repo URL for Tweet 9: [https://github.com/Zhekinmaksim/starkzap-bridge-swap-demo](https://github.com/Zhekinmaksim/starkzap-bridge-swap-demo)
 - After publishing, replace this placeholder with the live X/Twitter URL:
   `https://x.com/<your-handle>/status/<tweet-id>`
 

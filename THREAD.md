@@ -178,7 +178,7 @@ Overall: one of the cleaner SDK experiences I've seen for shipping DeFi UX on a 
 
 Full demo repo:
 
-🔗 GitHub: [YOUR_REPO_LINK]
+🔗 GitHub: https://github.com/Zhekinmaksim/starkzap-bridge-swap-demo
 
 Docs and resources:
 
