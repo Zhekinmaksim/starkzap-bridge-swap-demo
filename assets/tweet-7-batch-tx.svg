@@ -1,17 +1,55 @@
-<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1600" height="900" fill="#071119"/>
-  <rect x="52" y="52" width="1496" height="796" rx="28" fill="#0D1822" stroke="#223646"/>
-  <text x="88" y="118" fill="#7FD8B4" font-family="Space Grotesk, sans-serif" font-size="28" letter-spacing="3">TWEET 7 · BATCH TRANSACTION</text>
-  <rect x="88" y="160" width="1424" height="624" rx="24" fill="#101B26" stroke="#1F3140"/>
-  <text x="124" y="248" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">const tx = await wallet</text>
-  <text x="164" y="300" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">.tx()</text>
-  <text x="164" y="352" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">.swap({</text>
-  <text x="204" y="404" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">provider: "avnu",</text>
-  <text x="204" y="456" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">tokenIn: tokens.ETH,</text>
-  <text x="204" y="508" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">tokenOut: tokens.USDC,</text>
-  <text x="204" y="560" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">amountIn: Amount.parse("0.01", tokens.ETH),</text>
-  <text x="164" y="612" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">})</text>
-  <text x="164" y="664" fill="#F4F7FB" font-family="JetBrains Mono, monospace" font-size="30">.transfer(tokens.USDC, { to: recipient, amount: Amount.parse("2", tokens.USDC) })</text>
-  <text x="164" y="716" fill="#7FD8B4" font-family="JetBrains Mono, monospace" font-size="30">.send({ feeMode: "sponsored" });</text>
-  <text x="88" y="828" fill="#ABC0D4" font-family="Space Grotesk, sans-serif" font-size="24">One builder. One signature. One Starknet transaction.</text>
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="topGradient7" x1="0" y1="2" x2="1200" y2="2" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B06CCF"/>
+      <stop offset="0.48" stop-color="#FF8A66"/>
+      <stop offset="1" stop-color="#FFD36A"/>
+    </linearGradient>
+    <pattern id="grid7" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1B2235"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="#0B0D19"/>
+  <rect width="1200" height="4" fill="url(#topGradient7)"/>
+  <rect width="1200" height="675" fill="url(#grid7)" opacity="0.75"/>
+
+  <g opacity="0.12">
+    <path d="M948 92L1108 252L948 412L788 252L948 92Z" stroke="#5B2331"/>
+    <path d="M948 128L1072 252L948 376L824 252L948 128Z" stroke="#5B2331"/>
+    <path d="M1120 520L1200 600" stroke="#5B2331"/>
+    <path d="M1044 644L1168 520L1292 644L1168 768L1044 644Z" stroke="#5B2331"/>
+  </g>
+
+  <path d="M44 34L54 24L64 34L54 44L44 34Z" stroke="#FF7B66" stroke-width="2.4"/>
+  <text x="78" y="39" fill="#FF7B66" font-family="JetBrains Mono, monospace" font-size="15" font-weight="700" letter-spacing="1.8">STARKNET</text>
+
+  <rect x="80" y="66" width="1040" height="22" rx="5" fill="#0B3E31"/>
+  <text x="92" y="81" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="1.8">TX BATCHING</text>
+
+  <text x="80" y="138" fill="#FFF6EE" font-family="Space Grotesk, sans-serif" font-size="54" font-weight="700">Swap + transfer =</text>
+  <text x="80" y="177" fill="#73E3C1" font-family="Space Grotesk, sans-serif" font-size="54" font-weight="700">1 transaction</text>
+
+  <rect x="80" y="222" width="1040" height="310" rx="12" fill="#0A0B17" stroke="#262B45"/>
+
+  <text x="108" y="272" fill="#96A8FF" font-family="JetBrains Mono, monospace" font-size="15">const tx = await wallet</text>
+  <text x="126" y="295" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="15">.tx()</text>
+  <text x="126" y="318" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="15">.swap({</text>
+  <text x="150" y="341" fill="#F0E2D8" font-family="JetBrains Mono, monospace" font-size="15">provider: "avnu",</text>
+  <text x="150" y="364" fill="#F0E2D8" font-family="JetBrains Mono, monospace" font-size="15">tokenIn: tokens.ETH,</text>
+  <text x="150" y="387" fill="#F0E2D8" font-family="JetBrains Mono, monospace" font-size="15">tokenOut: tokens.USDC,</text>
+  <text x="150" y="410" fill="#F0E2D8" font-family="JetBrains Mono, monospace" font-size="15">amountIn: Amount.parse("0.01", tokens.ETH),</text>
+  <text x="150" y="433" fill="#F0E2D8" font-family="JetBrains Mono, monospace" font-size="15">slippageBps: 100n,</text>
+  <text x="126" y="456" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="15">})</text>
+  <text x="126" y="479" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="15">.transfer(tokens.USDC, {</text>
+  <text x="150" y="502" fill="#F0E2D8" font-family="JetBrains Mono, monospace" font-size="15">to: recipient, amount: Amount.parse("2", tokens.USDC),</text>
+  <text x="126" y="525" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="15">})</text>
+  <text x="126" y="548" fill="#73E3C1" font-family="JetBrains Mono, monospace" font-size="15">.send({ feeMode: "sponsored" });</text>
+
+  <rect x="80" y="553" width="1040" height="56" fill="#131322"/>
+  <rect x="80" y="553" width="3" height="56" fill="#73E3C1"/>
+  <text x="102" y="587" fill="#E7D8CC" font-family="JetBrains Mono, monospace" font-size="17">One builder. One signature. One Starknet transaction hash.</text>
+
+  <text x="80" y="647" fill="#3E4355" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="1.4">POWERED BY STARKNET</text>
+  <text x="1084" y="647" fill="#3E4355" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="1.4">7 / 9</text>
 </svg>
